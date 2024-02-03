@@ -5,11 +5,12 @@ function firstFunc() {
     console.log(someInt);
 
     const otherInt = 3;
+    console.log(otherInt);
   }
 
   secondFunc();
 
-  console.log(otherInt);
+
 }
 
 firstFunc();

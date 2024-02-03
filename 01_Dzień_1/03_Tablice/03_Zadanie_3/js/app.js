@@ -1,11 +1,17 @@
-function createArray(number) {
-  const newArray = [10];
+// Zajrzyj do pliku js/app.js.
+// Jest tam przykładowa funkcja, która tworzy tablicę z liczbami.
+// Niestety nie działa ona dobrze.
+// Znajdź błąd i napraw go, tak żeby funkcja działała.
 
-  for (let counter = 1; ; counter <= number) {
+
+function createArray(number) {
+  const newArray = [];
+
+  for (let counter = 1; counter <= number; counter++ ) {
     newArray.push(counter);
   }
 
-  return newArray[2];
+  return newArray;
 }
 
 console.log("tablica z liczbami do 6 = " + createArray(6));
